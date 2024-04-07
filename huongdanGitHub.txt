@@ -1,0 +1,22 @@
+Để đẩy code từ Google Colab lên GitHub, bạn có thể thực hiện các bước sau:
+
+1. **Lưu code từ Google Colab**: Trước tiên, bạn cần lưu code từ Google Colab dưới dạng một file notebook hoặc script. Bạn có thể chọn File -> Save a copy in GitHub để lưu trực tiếp lên GitHub hoặc tải về file .ipynb hoặc .py.
+
+2. **Tạo repository trên GitHub**:
+   - Đăng nhập vào tài khoản GitHub của bạn.
+   - Chọn "New" để tạo một repository mới.
+   - Đặt tên cho repository, chọn công khai hoặc riêng tư, và thêm mô tả nếu cần.
+
+3. **Đẩy code lên GitHub**:
+   - Mở terminal trong Google Colab bằng cách chạy cell 
+   với lệnh `!` và gõ `git clone https://github.com/your_username/your_repository.git` để sao chép repository về Colab.
+   - Di chuyển vào thư mục vừa sao chép: `cd your_repository`.
+   - Sao chép hoặc di chuyển file code vào thư mục repository.
+   - Thêm file vào staging area: `git add your_file.ipynb`.
+   - Commit các thay đổi: `git commit -m "Add my code"`.
+   - Đẩy code lên GitHub: `git push origin master`.
+
+
+Nhớ rằng bạn cần cấu hình thông tin xác thực GitHub trước khi đẩy code lên. Bạn có thể sử dụng lệnh 
+`git config --global user.email "you@example.com"` và 
+`git config --global user.name "Your Name"` để thiết lập thông tin này.
