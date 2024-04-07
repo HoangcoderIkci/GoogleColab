@@ -1,0 +1,11 @@
+N = 30
+Th?i gian th?c thi giai do?n 1(CPU): 7.526000 giΓy
+Th?i gian th?c thi giai do?n 1(GPU): 0.892000 giΓy
+Th?i gian th?c thi giai do?n 2(GPU): 7.353000 giΓy
+
+
+N = 34
+Th?i gian th?c thi giai do?n 1(GPU): 0.949000 giΓy
+Th?i gian th?c thi giai do?n 2(GPU): 52.877000 giΓy
+
+with N = 36 not enough memory!!!
